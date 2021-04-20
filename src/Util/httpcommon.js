@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {PORT_BACKEND} from './variables'
+
 /**
  * Return axios object 
  * @constructor 
