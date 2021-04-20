@@ -1,5 +1,4 @@
 import React from "react";
-import {Container} from 'react-bootstrap';
 import "./footer.scss";
 /**
  * 
@@ -10,12 +9,12 @@ import "./footer.scss";
 
 const Footer = () => {
   return (
-    <Container fluid>
+   
       <footer className='footer'> 
-          <p>All copyright @Univision</p>
-          {new Date().getFullYear()}
+          <p>All copyright @Univision - {new Date().getFullYear()}</p>
+          
       </footer>
-    </Container>
+   
   );
 };
 
