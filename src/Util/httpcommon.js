@@ -7,7 +7,7 @@ import {PORT_BACKEND} from './variables'
  * */ 
 
 export default axios.create({
-  baseURL: `http://localhost:${PORT_BACKEND}`,
+  baseURL: 'https://univisionvideoserver.herokuapp.com/',
   headers: {
     "Content-type": "application/json"
   }
